@@ -1,0 +1,23 @@
+1. Generate an array of 500 random integers between 1 and 1000.
+2. Create a menu using a loop to control the program's operations.
+3. Inside the loop:
+   - Display the menu options to the user.
+   - Read the user's choice.
+   - Use a switch statement to call the corresponding function based on the user's choice.
+   3.1. If the user chooses 1, call the "OutputAllValues" function.
+   3.2. If the user chooses 2, call the "OutputSumAndMean" function.
+   3.3. If the user chooses 3, call the "OutputAllOddNumbers" function.
+   3.4. If the user chooses 4, call the "OutputAllEvenNumbers" function.
+   3.5. If the user chooses 5, call the "OutputMiddleValue" function.
+   3.6. If the user chooses 6, call the "OutputFirstValue" function.
+   3.7. If the user chooses 7, call the "OutputLastValue" function.
+   3.8. If the user chooses 8, exit the program.
+4. Implement the functions:
+   - OutputAllValues: Display all values in the array.
+   - OutputSumAndMean: Calculate and display the sum and mean of the values.
+   - OutputAllOddNumbers: Display all odd numbers in the array.
+   - OutputAllEvenNumbers: Display all even numbers in the array.
+   - OutputMiddleValue: Display the values in the middle of the array (if the array has an odd number of elements).
+   - OutputFirstValue: Display the first value in the array.
+   - OutputLastValue: Display the last value in the array.
+5. Loop until the user chooses to exit (option 8).
